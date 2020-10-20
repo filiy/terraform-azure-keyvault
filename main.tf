@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 data "azuread_user" "user" {
   user_principal_name = var.user
 }
